@@ -2,4 +2,7 @@
     <!-- Device keyhandlers -->
     <java-symbol type="array" name="config_deviceKeyHandlerLibs" />
     <java-symbol type="array" name="config_deviceKeyHandlerClasses" />
+
+    <!-- Whether to dim the FOD icon -->
+    <java-symbol type="bool" name="config_fodIconDim" />
 </resources>
