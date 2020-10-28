@@ -200,7 +200,7 @@ public class FODCircleView extends ImageView implements TunerService.Tunable {
 
         mColorBackground = res.getColor(R.color.config_fodColorBackground);
         mPaintFingerprintBackground.setColor(mColorBackground);
-        mDimIcon = res.getBoolean(com.android.internal.R.bool.config_DimIcon);
+        mDimIcon = res.getBoolean(com.android.internal.R.bool.config_fodIconDim);
         mPaintFingerprintBackground.setAntiAlias(true);
 
         mWindowManager = context.getSystemService(WindowManager.class);
